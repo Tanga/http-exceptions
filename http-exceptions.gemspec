@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'http/exceptions/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "http-exceptions"
+  spec.name          = "tanga-http-exceptions"
   spec.version       = Http::Exceptions::VERSION
   spec.authors       = ["Simon Mathieu"]
   spec.email         = ["simon.math@gmail.com"]
